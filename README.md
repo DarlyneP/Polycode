@@ -8,3 +8,8 @@ I've been learning several languages & figured some months ago it could be quite
 I had some things to get to prior so I'm doing this only now, as a rough draft to showcase my skills & get more familiar with Vue. This is my first Vue project since I obtained my Vue.js certification on Codecademy but I plan on using this framework more to do more elaborate things.
 
 Again this website is a rough draft of what my initial project could be.
+
+Update :
+
+the code won't compile properly on Github pages for some reason so here is a quick visual until I can fix this issue later this week
+![]()
