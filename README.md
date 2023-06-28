@@ -12,4 +12,5 @@ Again this website is a rough draft of what my initial project could be.
 Update :
 
 the code won't compile properly on Github pages for some reason so here is a quick visual until I can fix this issue later this week
-![]()
+![](https://github.com/DarlyneP/Polycode/blob/main/Capture%20d%E2%80%99e%CC%81cran%202023-06-28%20a%CC%80%2016.17.57.png)
+![](https://github.com/DarlyneP/Polycode/blob/main/Capture%20d%E2%80%99e%CC%81cran%202023-06-28%20a%CC%80%2016.18.11.png)
