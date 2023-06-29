@@ -1,0 +1,218 @@
+:root {
+    --title-font: 'Russo One', sans-serif;
+    --content-links: 'Prompt', sans-serif;
+    --content-details: 'Kanit', sans-serif;
+    --content-font: 'Play', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(39, 1, 75);
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    /* background-color: white; */
+    margin: 0 auto;
+    border-radius: 11px;
+    margin-top: 3%;
+    padding: 10px;
+}
+
+.vid-container {
+    position: relative;
+}
+
+.board {
+    background-color: white; 
+}
+
+#background-video {
+    /* width: 100vw; */
+    /* height: 100vh; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 11px;
+}
+
+header h1 {
+    text-align: center;
+    /*this property was on the following selector but text align cannot be applied on links so I had to move it here.*/
+}
+
+header h1 a {
+    font-family: var(--title-font);
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    width: 100%;
+}
+
+.home--contents {
+    text-align: center;
+}
+
+.start {
+    color: white;
+    font-family: var(--content-links);
+    font-weight: 600;
+    background-color: black;
+    padding: 7px 12px;
+    border-radius: 7px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.start:hover {
+    cursor: url(../img/icons8-3d-pointer-26.png), pointer;
+    background-color: rgb(63, 4, 118);
+}
+
+aside {
+    padding-left: 15px;
+}
+
+aside li {
+    font-family: var(--content-links);
+    font-weight: 500;
+}
+
+aside li:hover {
+    cursor: url(../img/icons8-3d-pointer-26.png), pointer;
+    color: rgb(75, 15, 194);
+}
+
+section {
+    padding-left: 25px;
+    width: 65%;
+}
+
+.instructions {
+    font-family: var(--content-details);
+}
+
+.languages {
+    display: none;
+    padding: 10px 0px;
+}
+
+.lang {
+    width: 50px;
+    padding: 7px 10px;
+    font-family: var(--content-details);
+    border: none;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+.lang:hover {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.lang:first-of-type {
+    background-color: yellow;
+}
+
+.lang:nth-of-type(2) {
+    background-color: rgb(21, 61, 149);
+    color: white;
+}
+.lang:nth-of-type(3) {
+    background: linear-gradient(135deg, yellow,  rgb(10, 49, 135));
+}
+
+.details {
+    font-family: var(--content-details);
+}
+
+.content--display {
+    background-color: rgb(222, 188, 255);
+    border-radius: 11px;
+    padding: 15px;
+    font-family: var(--content-font);
+    font-weight: 600;
+    display: none;
+}
+
+ul .subcontents {
+    margin-left: 25px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer a {
+    color: white;
+    font-weight: 600;
+    font-family: var(--content-links);
+}
+
+footer a:hover {
+    color: rgb(190, 121, 255);
+}
+
+
+.display--visual {
+    background-image: url(../img/Polycode_OldDisplay.png);
+    width: -webkit-fill-available;
+}
+
+.setup button {
+    background-color: #a489ff;
+    font-family: var(--title-font);
+    color: white;
+    border-radius: 8px;
+}
+
+.setup button:hover {
+    cursor: url(../img/icons8-hand-cursor-26.png), pointer;
+}
+
+.about-app {
+    background-color: white;
+    border-radius: 11px;
+}
+
+.about {
+    flex-direction: column;
+    text-align: center;
+}
+
+.about h4 {
+    font-family: var(--content-links);
+    font-weight: 600;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.about p {
+    font-family: var(--content-details);
+    margin-left: 8px;
+}
+
+.about a img {
+    width: 40px;
+    height: 40px;
+}
